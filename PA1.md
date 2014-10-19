@@ -54,6 +54,13 @@ To plot a time series of this data by time interval, load the ggplot2 library an
 
 ```r
 library(ggplot2)
+```
+
+```
+## Need help? Try the ggplot2 mailing list: http://groups.google.com/group/ggplot2.
+```
+
+```r
 ggplot(data=avginterval, aes(x=Interval, y=Steps, group=1)) + geom_line()
 ```
 
